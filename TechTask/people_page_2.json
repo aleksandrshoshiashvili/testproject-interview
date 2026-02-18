@@ -1,0 +1,8 @@
+{
+  "people": [
+    { "id": "3", "name": "Mina Park", "title": "Product Designer", "team": "Search", "avatarURL": null, "joinedAt": "2022-06-15T12:20:00Z" },
+    { "id": "4", "name": "Leo Nguyen", "title": "Engineering Manager", "team": "Core", "avatarURL": null, "joinedAt": "2021-03-02T08:00:00Z" },
+    { "id": "5", "name": "Sara Ivanova", "title": "iOS Engineer", "team": "Growth", "avatarURL": null, "joinedAt": "2020-11-11T11:11:11Z" }
+  ],
+  "nextPage": null
+}
