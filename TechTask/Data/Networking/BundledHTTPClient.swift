@@ -13,6 +13,7 @@ final class BundledHTTPClient: HTTPClient {
         let fileName = "people_page_\(page)"
         guard let fileURL = Bundle.main.url(forResource: fileName, withExtension: "json"),
               let data = try? Data(contentsOf: fileURL) else {
+            // jritchey: this should be an error...
             return HTTPResponse(statusCode: 200, data: Data())
         }
         return HTTPResponse(statusCode: 200, data: data)

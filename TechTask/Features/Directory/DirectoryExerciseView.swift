@@ -36,7 +36,7 @@ struct DirectoryExerciseView: View {
                 Text("No selection")
             }
         }
-        .onAppear { vm.load() }
+        .onAppear { vm.load() } // this should be task { ... }, so it's cancellable.. vm.load should be async.
     }
 }
 
